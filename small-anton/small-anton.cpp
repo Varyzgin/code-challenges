@@ -1,16 +1,14 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
-
 int main() {
-    string s;
-    cin >> s;
+    std::string s;
+    std::cin >> s;
 
     if (s.find('R') < s.find('M')) {
-        cout << "Yes" << endl;
+        std::cout << "Yes" << std::endl;
     } else {
-        cout << "No" << endl;
+        std::cout << "No" << std::endl;
     }
 
     return 0;
